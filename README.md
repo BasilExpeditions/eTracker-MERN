@@ -1,4 +1,8 @@
-# Practice application for MERN - MongoDB - Express - React - Node.js + mongoose
+# Practice application for MERN: 
+## MongoDB
+## Express 
+## React 
+## Node.js mongoose
 
 # Getting Started with Create React App
 
