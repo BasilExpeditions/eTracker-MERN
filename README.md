@@ -4,7 +4,7 @@
 - React 
 - Node.js
 
-+ Mongoose
+With Mongoose
 
 # Getting Started with Create React App
 
