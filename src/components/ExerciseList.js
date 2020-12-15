@@ -1,11 +1,9 @@
-import React from 'react';
+import React, { Component } from "react";
 
-const ExerciseList = () => {
-    return(
-        <div>
-            Exercise List Component
-        </div>
-    )
+class ExerciseList extends Component {
+  render() {
+    return <div>Exercise List Component</div>;
+  }
 }
 
 export default ExerciseList;
