@@ -53,7 +53,7 @@ class ExerciseList extends Component {
   }
 
   exerciseList() {
-    return this.state.exercises.map((currentExercises) => {
+    return this.state.exercises.map((currentexercise) => {
       return (
         <Exercise
           exercise={currentexercise}
