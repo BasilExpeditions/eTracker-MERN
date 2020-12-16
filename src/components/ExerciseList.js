@@ -22,7 +22,7 @@ const Exercise = (props) => (
   </tr>
 );
 
-class ExerciseList extends Component {
+class ExercisesList extends Component {
   constructor(props) {
     super(props);
 
@@ -46,6 +46,7 @@ class ExerciseList extends Component {
     axios
       .delete("http://localhost:5000/exercises/" + id)
       .then((res) => console.log(res.data));
+
     this.setState({
       // _id refers to the mongoDB object id that exists as a unique identifier within the collections
       exercises: this.state.exercises.filter((el) => el._id !== id),
@@ -85,4 +86,4 @@ class ExerciseList extends Component {
   }
 }
 
-export default ExerciseList;
+export default ExercisesList;

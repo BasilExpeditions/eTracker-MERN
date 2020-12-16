@@ -3,7 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import axios from "axios";
 
-class EditExercises extends Component {
+class EditExercise extends Component {
   constructor(props) {
     super(props);
 
@@ -16,7 +16,7 @@ class EditExercises extends Component {
     this.state = {
       username: "",
       description: "",
-      duration: "",
+      duration: 0,
       date: new Date(),
       users: [],
     };
@@ -157,4 +157,4 @@ class EditExercises extends Component {
   }
 }
 
-export default EditExercises;
+export default EditExercise;
